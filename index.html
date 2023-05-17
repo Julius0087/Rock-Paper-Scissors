@@ -1,1 +1,46 @@
-<script src="script.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="header">Rock Paper Scissors</div>
+
+    <div class="body-container">
+      <h1>A classic game of rock paper scissors. Play against the computer, first to score 5 points wins.</h1>
+
+      <div class="button-container">
+        <button id="rock">
+          <img id="rock" class="symbol" src="img/rock.jpg" alt="">
+          Rock
+        </button>
+        <button id="paper">
+          <img id="paper" class="symbol" src="img/paper.jpg" alt="">
+          Paper
+        </button>
+        <button id="scissors">
+          <img id="scissors" class="symbol" src="img/scissors.jpg" alt="">
+          Scissors
+        </button>
+      </div>
+    
+      <div class="results">
+        <span id="player-score">Player score: 0</span>
+        <span id="computer-score">Computer score: 0</span>
+        <br>
+        <span id="result"></span>
+        <h2 id="result-heading"></h2>
+      </div>
+
+    </div>
+    <footer>Images by <a href="https://icon-library.com/">Free Icons Library</a></footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

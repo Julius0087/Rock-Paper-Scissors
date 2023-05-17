@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 40px 0;
+}
+
+.header {
+  height: 70px;
+  background-color: rgb(77, 77, 77);
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 200px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.symbol {
+  display: block;
+  width: 100%;
+}
+
+button {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(77, 77, 77);
+  width: 400px;
+  background-color: white;
+  border: 2px solid rgb(77, 77, 77);
+  border-radius: 12px;
+}
+
+button:hover {
+  scale: 1.005;
+  border: 2px solid rgb(214, 214, 214);
+  cursor: pointer;
+}
+
+.again-button:hover {
+  background-color:rgb(77, 77, 77);
+  color: white;
+  border: 2px solid rgb(77, 77, 77);
+  scale: none;
+}
+
+footer {
+  margin-top: 80px;
+  padding: 25px 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: rgb(77, 77, 77);
+}
+
+a {
+  color: white;
+}
